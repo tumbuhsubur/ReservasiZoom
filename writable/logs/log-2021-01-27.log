@@ -1,0 +1,44 @@
+CRITICAL - 2021-01-27 09:37:33 --> Unable to connect to the database.
+#0 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\ReservasiZoom\app\Controllers\Pages.php(16): CodeIgniter\Model->findAll()
+#4 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ReservasiZoom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-27 10:02:39 --> Undefined variable: db
+#0 D:\xampp\htdocs\ReservasiZoom\app\Views\pages\konten.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34, Array)
+#1 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pages/konten', Array, true)
+#3 D:\xampp\htdocs\ReservasiZoom\app\Controllers\Pages.php(38): view('pages/konten')
+#4 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->konten()
+#5 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ReservasiZoom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-27 10:03:07 --> Undefined variable: db
+#0 D:\xampp\htdocs\ReservasiZoom\app\Views\pages\konten.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34, Array)
+#1 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pages/konten', Array, true)
+#3 D:\xampp\htdocs\ReservasiZoom\app\Controllers\Pages.php(38): view('pages/konten')
+#4 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->konten()
+#5 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ReservasiZoom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-27 10:03:09 --> Undefined variable: db
+#0 D:\xampp\htdocs\ReservasiZoom\app\Views\pages\konten.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34, Array)
+#1 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pages/konten', Array, true)
+#3 D:\xampp\htdocs\ReservasiZoom\app\Controllers\Pages.php(38): view('pages/konten')
+#4 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->konten()
+#5 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ReservasiZoom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}

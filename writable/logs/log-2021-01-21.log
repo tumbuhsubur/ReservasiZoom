@@ -1,0 +1,6 @@
+CRITICAL - 2021-01-21 12:37:12 --> syntax error, unexpected ''Admin\Users::index'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ReservasiZoom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#4 {main}

@@ -1,0 +1,11 @@
+CRITICAL - 2021-01-24 11:29:01 --> Undefined variable: i
+#0 D:\xampp\htdocs\ReservasiZoom\app\Views\reservasi\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 28, Array)
+#1 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('reservasi/tamba...', Array, true)
+#3 D:\xampp\htdocs\ReservasiZoom\app\Controllers\Reservasi.php(57): view('reservasi/tamba...', Array)
+#4 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Reservasi->tambah()
+#5 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservasi))
+#6 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ReservasiZoom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ReservasiZoom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\xampp\\htdocs...')
+#9 {main}
